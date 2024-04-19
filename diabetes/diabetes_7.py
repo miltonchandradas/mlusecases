@@ -31,7 +31,7 @@ model_params = {
         }
     },
     "voting_regressor": {
-        "model": VotingRegressor([('clf1', RandomForestRegressor()), ('clf2', KNeighborsRegressor()), ('clf3', LinearRegression())]),
+        "model": VotingRegressor([('clf1', RandomForestRegressor(n_estimators=100)), ('clf2', KNeighborsRegressor(n_neighbors=15)), ('clf3', LinearRegression())]),
         "params": {
             "weights": [(1, 1, 1), (1, 1, 2), (1, 2, 1), (2, 1, 1)]
         }
