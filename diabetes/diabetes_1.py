@@ -1,7 +1,8 @@
+import numpy as np
 import pandas as pd
 from sklearn.datasets import load_diabetes
 
-X, y = load_diabetes(return_X_y=True, as_frame=True)
+X, y = load_diabetes(return_X_y=True, as_frame=True, scaled=False)
 X.head()
 y.head()
 
@@ -21,3 +22,16 @@ y.head()
 
 
 # Each of the 10 feature variables have been mean centered and scaled by the standard deviation times the square root of the number of sample (ie the sum of squares of each column totals 1).
+
+
+# Calculate the sum of squares for each column in X
+# sum_of_squares = np.sum(X**2, axis=0)
+
+# # Print the sum of squares for each column
+# print("Sum of squares for each column in X:")
+# print(sum_of_squares)
+
+# df = pd.DataFrame(X)
+# df.describe().round(2)
+# df["age"].describe().round(2)
+

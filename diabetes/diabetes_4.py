@@ -9,8 +9,8 @@ from sklearn.linear_model import LinearRegression
 
 # Create the model
 # my_model = KNeighborsRegressor(n_neighbors=1)
-# my_model = LinearRegression()
-my_model = KNeighborsRegressor()
+my_model = LinearRegression()
+# my_model = KNeighborsRegressor()
 
 # Train the model with data
 my_model.fit(X, y)
