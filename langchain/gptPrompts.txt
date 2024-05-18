@@ -1,0 +1,9 @@
+You are an expert with langchain...  I am trying to create a powerpoint slide deck for beginners on langchain.  Can you give me some bullet points I can add to my slide deck
+
+Can you explain embedding in 3 or 4 bullet points
+
+Can you explain vector database in 3 or 4 bullet points
+
+Can you make some fictitious info about me - for example my hobbies, work, past travel, future travel plans, health, strengths and weaknesses.  My name is Milton and I am 50 years old and I work in software industry in USA
+
+Can you explain langchain agents in 4 or 5 bullet points
